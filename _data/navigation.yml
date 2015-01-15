@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About
+  url: /
+  excerpt: About me
+  image:
+
+- title: Blog
+  url: /
+  excerpt: Words I've written
+  image:
+
+- title: Projects
+  url: /projects
+  excerpt: Things I've made
+  image:
