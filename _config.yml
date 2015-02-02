@@ -2,7 +2,7 @@
 
 title: Erick Dransch
 description: "Thoughts on things."
-logo: # 120x120 px default image used for Twitter summary card
+logo: logo.jpg # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
     #url: blog.erickdransch.com
@@ -23,11 +23,11 @@ gems:
 owner:
   name: Erick Dransch
   email: erick.dransch@gmail.com
-  twitter:
+  twitter: erickdransch
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: A human being.
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 

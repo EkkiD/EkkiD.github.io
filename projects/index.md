@@ -32,7 +32,6 @@ Javascript and canvas!
 Part of the Random Hacks of Kindness Toronto Hackathon, Summer 2011. This collaboration between the Atlanta and Toronto RHOK events was the winning hack at both locations.
 
 
-
 The problem is as follows: A disaster occurs and cell reception and internet are knocked out.  
 There is no connectivity, however, people in the disaster zone wish to send messages home. The Hermes system tackles the problem by sharing messages in a distributed fashion, copying them among  
 phones in the disaster zone and allowing them to spread organically. Eventually, one phone will come into connectivity and dump the entire payload to the server to be delivered to the  

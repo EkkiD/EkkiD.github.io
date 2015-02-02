@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% if page.image.feature %}
+<div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
+  <div class="wrap page-lead-content">
+    <h1>{% if page.header.h1 %} {{ page.header.h1 }} {% endif %}</h1>
+    <h2>{% if page.header.h2 %} {{ page.header.h2 }} {% endif %}</h2>
+    {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+  </div><!-- /.page-image -->
+</div><!-- /.page-feature -->
+{% endif %}
+<div id="main" role="main">	
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% include breadcrumbs.html %}
+		<div class="archive-wrap">
+			<nav class="toc"></nav><!-- /.toc -->
+			<div id="content" class="page-content" itemprop="articleBody">
+				{{ content }}
+				<hr />
+				<footer class="page-footer">
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.archive-wrap -->
+		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+	</article><!-- /.wrap -->
+</div><!-- /#main -->

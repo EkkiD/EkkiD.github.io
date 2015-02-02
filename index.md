@@ -1,7 +1,13 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "Latest Posts"
+title: "Home"
+image:
+    feature: Moss_1600x800.png
+header:
+    h1: Erick Dransch
+    h2: This is a tagline, hopefully.
+share: False
 ---
 
 <div class="tiles">
