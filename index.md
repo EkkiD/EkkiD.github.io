@@ -6,7 +6,7 @@ image:
     feature: Moss_1600x800.png
 header:
     h1: Erick Dransch
-    h2: This is a tagline, hopefully.
+    h2: Writer of software, drinker of coffee.
 share: False
 ---
 
